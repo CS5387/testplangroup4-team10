@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE DATABASE SYSTEM "./DB/WscDatabase.dtd">
+<DATABASE name='TEST_DB' file_name='TESTSC1_TDRS_DB.DUMP'>
+  <PROPERTY name='NumberOfUsers' value='100' />
+  <PROPERTY name='BufferMemory' value='false' />
+  <PROPERTY name='Snapshot' value='false' />
+  <PROPERTY name='AllocationPages' value='0' />
+  <PROPERTY name='ExtentMinimum' value='99' />
+  <PROPERTY name='ExtentMaximum' value='9999' />
+  <PROPERTY name='SnapshotAllocationPages' value='100' />
+  <TABLE name='BIG_TABLE' x='140' y='140'>
+    <COLUMN name='C_0_0' type='INTEGER'/> 
+    <COLUMN name='C_1_0' type='INTEGER' /> 
+    <COLUMN name='C_1_1' type='INTEGER' />
+    <COLUMN name='C_2_0' type='INTEGER' />   
+    <COLUMN name='C_2_1' type='INTEGER' />   
+    <COLUMN name='C_2_2' type='INTEGER' />   
+    <COLUMN name='C_3_0' type='INTEGER' />   
+    <COLUMN name='C_3_1' type='INTEGER' />   
+    <COLUMN name='C_3_2' type='INTEGER' />   
+    <COLUMN name='C_3_3' type='INTEGER' />   
+    <COLUMN name='C_4_0' type='INTEGER' />    
+    <COLUMN name='C_4_1' type='INTEGER' />   
+    <COLUMN name='C_4_2' type='INTEGER' />  
+    <COLUMN name='C_4_3' type='INTEGER' />   
+     <COLUMN name='C_4_4' type='INTEGER' />    
+    <COLUMN name='C_5_0' type='INTEGER' />    
+    <COLUMN name='C_5_1' type='INTEGER' />   
+    <COLUMN name='C_5_2' type='INTEGER' />  
+    <COLUMN name='C_5_3' type='INTEGER' />    
+    <COLUMN name='C_5_4' type='INTEGER' />    
+    <COLUMN name='C_5_5' type='INTEGER' />    
+    <COLUMN name='C_6_0' type='INTEGER' />    
+    <COLUMN name='C_6_1' type='INTEGER' />    
+    <COLUMN name='C_6_2' type='INTEGER' />    
+    <COLUMN name='C_6_3' type='INTEGER' />    
+    <COLUMN name='C_6_4' type='INTEGER' />    
+    <COLUMN name='C_6_5' type='INTEGER' />    
+    <COLUMN name='C_6_6' type='INTEGER' />    
+    <COLUMN name='C_7_0' type='INTEGER' />    
+    <COLUMN name='C_7_1' type='INTEGER' />    
+    <COLUMN name='C_7_2' type='INTEGER' />    
+    <COLUMN name='C_7_3' type='INTEGER' />    
+    <COLUMN name='C_7_4' type='INTEGER' />    
+    <COLUMN name='C_7_5' type='INTEGER' />    
+    <COLUMN name='C_7_6' type='INTEGER' />    
+    <COLUMN name='C_7_7' type='INTEGER' />    
+    <COLUMN name='C_8_0' type='INTEGER' />    
+    <COLUMN name='C_8_1' type='INTEGER' />    
+    <COLUMN name='C_8_2' type='INTEGER' />    
+    <COLUMN name='C_8_3' type='INTEGER' />   
+    <COLUMN name='C_8_4' type='INTEGER' />    
+    <COLUMN name='C_8_5' type='INTEGER' />   
+    <COLUMN name='C_8_6' type='INTEGER' />    
+    <COLUMN name='C_8_7' type='INTEGER' />   
+    <COLUMN name='C_8_8' type='INTEGER' />  
+    <COLUMN name='S_0_0' type='INTEGER' />    
+    <COLUMN name='S_1_0' type='INTEGER' />    
+    <COLUMN name='S_1_1' type='INTEGER' />   
+    <COLUMN name='S_2_0' type='INTEGER' /> 
+    <COLUMN name='S_2_1' type='INTEGER' />   
+    <COLUMN name='S_2_2' type='INTEGER' />   
+    <COLUMN name='S_3_0' type='INTEGER' />    
+    <COLUMN name='S_3_1' type='INTEGER' />    
+    <COLUMN name='S_3_2' type='INTEGER' />   
+    <COLUMN name='S_3_3' type='INTEGER' />    
+    <COLUMN name='S_4_0' type='INTEGER' />   
+    <COLUMN name='S_4_1' type='INTEGER' />  
+    <COLUMN name='S_4_2' type='INTEGER' />   
+    <COLUMN name='S_4_3' type='INTEGER' />    
+    <COLUMN name='S_4_4' type='INTEGER' />   
+    <COLUMN name='S_5_0' type='INTEGER' />    
+    <COLUMN name='S_5_1' type='INTEGER' />   
+    <COLUMN name='S_5_2' type='INTEGER' />   
+    <COLUMN name='S_5_3' type='INTEGER' />    
+    <COLUMN name='S_5_4' type='INTEGER' />    
+    <COLUMN name='S_5_5' type='INTEGER' />    
+    <COLUMN name='S_6_0' type='INTEGER' />   
+    <COLUMN name='S_6_1' type='INTEGER' />    
+    <COLUMN name='S_6_2' type='INTEGER' />    
+    <COLUMN name='S_6_3' type='INTEGER' />   
+    <COLUMN name='S_6_4' type='INTEGER' />   
+    <COLUMN name='S_6_5' type='INTEGER' />    
+    <COLUMN name='S_6_6' type='INTEGER' />   
+    <COLUMN name='S_7_0' type='INTEGER' />  
+    <COLUMN name='S_7_1' type='INTEGER' />    
+    <COLUMN name='S_7_2' type='INTEGER' />    
+    <COLUMN name='S_7_3' type='INTEGER' />    
+    <COLUMN name='S_7_4' type='INTEGER' />   
+    <COLUMN name='S_7_5' type='INTEGER' />   
+    <COLUMN name='S_7_6' type='INTEGER' />    
+    <COLUMN name='S_7_7' type='INTEGER' />    
+    <COLUMN name='S_8_0' type='INTEGER' />   
+    <COLUMN name='S_8_1' type='INTEGER' />   
+    <COLUMN name='S_8_2' type='INTEGER' />   
+    <COLUMN name='S_8_3' type='INTEGER' />    
+    <COLUMN name='S_8_4' type='INTEGER' />    
+    <COLUMN name='S_8_5' type='INTEGER' />    
+    <COLUMN name='S_8_6' type='INTEGER' />    
+    <COLUMN name='S_8_7' type='INTEGER' />    
+    <COLUMN name='S_8_8' type='INTEGER' />    
+  </TABLE>
+
+
+ <TABLE name='CONSTRAINT_TABLE' x='520' y='520'>
+    <COLUMN name='INDEX' type='INTEGER' >
+      <CONSTRAINT name='NN_0' type='NotNull'/>
+    </COLUMN>
+    <COLUMN name='DESCRIPTION' type='CHAR' size='5'  >
+	  <CONSTRAINT name='EN_1' type='Check'>
+	     <OPTION>OPT01</OPTION>
+		 <OPTION>OPT02</OPTION>
+      </CONSTRAINT>
+    </COLUMN>
+    <COLUMN name='RESTRICTION_TYPE' type='CHAR' size='20' >
+      <CONSTRAINT name='NN_0' type='NotNull'/>
+    </COLUMN>
+    <COLUMN name='ATTENTION1' type='CHAR' size='20' >
+      <CONSTRAINT name='NN_0' type='NotNull'/>
+    </COLUMN>
+    <COLUMN name='ATTENTION2' type='CHAR' size='20' >
+	  <CONSTRAINT name='NN_0' type='Unique'/>
+    </COLUMN>
+  </TABLE>
+
+  <TABLE name='TYPE_TABLE' x='560' y='560'>
+    <COLUMN name='FIELD_CHARACTER' type='CHAR' size='12' />
+    <COLUMN name='FIELD_SMALLINT' type='SMALLINT' >
+      <CONSTRAINT name='NN_0' type='NotNull'/>
+    </COLUMN>
+    <COLUMN name='FIELD1_TINYINT' type='TINYINT' >
+      <CONSTRAINT name='NN_0' type='NotNull'/>
+    </COLUMN>
+    <COLUMN name='FIELD_DP' type='DOUBLE_PRECISION' >
+      <CONSTRAINT name='NN_0' type='NotNull'/>
+    </COLUMN>
+    <COLUMN name='FIELD1_INTEGER' type='INTEGER'/>
+  </TABLE>
+  <HISTORY>
+    <ITEM date='12/13/2011' author='Steve Roach' comment='Initial creation from relational model' />
+  </HISTORY>
+</DATABASE>
+
+
+
+ 
